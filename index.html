@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeBull - Your Digital Guard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>SafeBull</h1>
+        <p>Your Digital Security Companion</p>
+    </header>
+
+    <main>
+        <!-- Password Generator -->
+        <section class="generator-section">
+            <h2>Password Generator</h2>
+            <input type="text" id="keyword" placeholder="Enter your name / keyword">
+            <input type="number" id="year" placeholder="Optional: Add year">
+            <input type="text" id="activity" placeholder="Optional: Favorite activity / place">
+            <button id="generateBtn">Generate Strong Password</button>
+            <div class="results">
+                <p id="password1"></p>
+                <p id="password2"></p>
+            </div>
+        </section>
+
+        <!-- Password Analyzer -->
+        <section class="analyzer-section">
+            <h2>Password Strength Analyzer</h2>
+            <input type="text" id="analyzeInput" placeholder="Paste your password to check">
+            <button id="analyzeBtn">Check Strength</button>
+            <div id="analysisResult"></div>
+        </section>
+
+        <!-- Social Media Tips -->
+        <section class="tips-section">
+            <h2>Security Tips</h2>
+            <ul id="tipsList"></ul>
+        </section>
+
+        <!-- Advanced Scroll-Based Tips -->
+        <section class="advanced-tips-section">
+            <h2>Advanced Security Tips & Features</h2>
+            <div id="advancedTipsContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Join our community on Telegram: <a href="#" target="_blank">SafeBull Official</a></p>
+    </footer>
+
+    <!-- JS Modules -->
+    <script src="data/tips.js"></script>
+    <script src="js/generator.js"></script>
+    <script src="js/analyzer.js"></script>
+    <script src="js/crackTime.js"></script>
+    <script src="js/warnings.js"></script>
+    <script src="js/app.js"></script>
+</body>
+              </html>
