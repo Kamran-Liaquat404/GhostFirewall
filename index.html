@@ -16,6 +16,7 @@
             <div class="menu-dot" id="menuDot">⋮</div>
             <div class="dropdown-menu" id="dropdownMenu">
                 <button id="toggleTheme">Dark/Light</button>
+                <button onclick="openPrivacy()">Privacy Policy</button>
             </div>
         </div>
     </header>
@@ -92,6 +93,11 @@
             }
             hideDropdown(); // Hide dropdown after selection
         });
+
+        // Privacy button function
+        function openPrivacy() {
+            window.location.href = "privacy.html";
+        }
 
         // Hide dropdown if user clicks anywhere outside
         document.addEventListener('click', (e) => {
